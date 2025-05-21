@@ -9,8 +9,9 @@
   <a href="#usage">⛏️ Usage</a> •
   <a href="#techniques">🔍 Techniques</a> •
   <a href="#examples">🚀 Examples</a> •
+  <a href="#wiki">📚 Wiki</a> •
   <a href="#contributing">🤝 Contributing</a> •
-  <a href="#resources">📚 Resources</a>
+  <a href="#resources">🔗 Resources</a>
 </p>
 
 <p align="center">
@@ -236,4 +237,15 @@ This web security testing tool was inspired by many bypass techniques collected 
 
 ## Disclaimer
 
-This tool is meant for educational purposes and ethical security testing with proper authorization. Do not use against systems you do not have permission to test. 
+This tool is meant for educational purposes and ethical security testing with proper authorization. Do not use against systems you do not have permission to test.
+
+## 📚 Wiki
+
+Comprehensive documentation is available in the [project wiki](https://github.com/ibrahimsql/GoBypass403/wiki):
+
+* [System Requirements](https://github.com/ibrahimsql/GoBypass403/wiki/System-Requirements) - Hardware and software requirements
+* [Installation Guide](https://github.com/ibrahimsql/GoBypass403/wiki/Installation) - Detailed installation instructions
+* [CLI Reference](https://github.com/ibrahimsql/GoBypass403/wiki/CLI-Reference) - Complete command-line options
+* [Bypass Techniques](https://github.com/ibrahimsql/GoBypass403/wiki/Bypass-Techniques) - Detailed bypass methodology
+* [Advanced Usage](https://github.com/ibrahimsql/GoBypass403/wiki/Advanced-Usage) - Advanced testing scenarios
+* [Troubleshooting](https://github.com/ibrahimsql/GoBypass403/wiki/Troubleshooting) - Common issues and solutions 
