@@ -243,9 +243,8 @@ This tool is meant for educational purposes and ethical security testing with pr
 
 Comprehensive documentation is available in the [project wiki](https://github.com/ibrahimsql/GoBypass403/wiki):
 
+* [Home](https://github.com/ibrahimsql/GoBypass403/wiki/Home) - Project overview and getting started
 * [System Requirements](https://github.com/ibrahimsql/GoBypass403/wiki/System-Requirements) - Hardware and software requirements
 * [Installation Guide](https://github.com/ibrahimsql/GoBypass403/wiki/Installation) - Detailed installation instructions
 * [CLI Reference](https://github.com/ibrahimsql/GoBypass403/wiki/CLI-Reference) - Complete command-line options
-* [Bypass Techniques](https://github.com/ibrahimsql/GoBypass403/wiki/Bypass-Techniques) - Detailed bypass methodology
-* [Advanced Usage](https://github.com/ibrahimsql/GoBypass403/wiki/Advanced-Usage) - Advanced testing scenarios
-* [Troubleshooting](https://github.com/ibrahimsql/GoBypass403/wiki/Troubleshooting) - Common issues and solutions 
+* [Bypass Techniques](https://github.com/ibrahimsql/GoBypass403/wiki/Bypass-Techniques) - Detailed bypass methodology 
