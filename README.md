@@ -136,38 +136,8 @@ bypass403 -u https://example.com/admin -v -o results.txt
 
 ## 🔍 403 Forbidden Bypass Techniques Explained
 
-### Method Manipulation for Access Control Testing
-Attempts to access the resource using different HTTP methods.
+GoBypass403 implements multiple bypass techniques for testing access controls. For detailed information about each technique, see [Bypass Techniques Documentation](wiki/Bypass-Techniques.md).
 
-### Path Manipulation for Bypassing Security Controls
-Modifies the URL path using various techniques like path normalization tricks.
-
-### Header Manipulation for Web Security Assessment
-Adds custom headers that might affect the server's access control decision.
-
-### IP Spoofing Headers for Penetration Testing
-Uses different headers to spoof the client's IP address as localhost or trusted IPs.
-
-### URL Encoding Bypass Techniques
-Applies different URL encoding techniques to the path.
-
-### Protocol Bypass for Web Access Controls
-Tries different protocols (HTTP/HTTPS) to access the resource.
-
-### Path Traversal Security Testing
-Uses directory traversal techniques to bypass restrictions.
-
-### Caching Proxy Bypass Methods
-Employs headers that might affect caching behavior of proxy servers.
-
-### Advanced Security Bypass Payloads
-Uses complex techniques combining multiple bypass methods.
-
-### Wordlist-based Security Testing
-Tests various paths from a wordlist.
-
-### Combined Techniques for Comprehensive Security Assessment
-Applies combinations of headers, methods, and path modifications.
 
 ## 🚀 Security Testing Examples
 
