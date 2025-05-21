@@ -5,8 +5,8 @@ import (
 	"net/url"
 )
 
-// TestAdvancedPayloads tests specialized payloads for bypassing 403 responses
-func TestAdvancedPayloads(baseURL string, client *http.Client, config Config) ([]Result, error) {
+// TestPayloads tests specialized payloads for bypassing 403 responses
+func TestPayloads(baseURL string, client *http.Client, config Config) ([]Result, error) {
 	var results []Result
 	parsedURL, err := url.Parse(baseURL)
 	if err != nil {

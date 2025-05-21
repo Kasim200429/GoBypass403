@@ -39,7 +39,7 @@ func GetTechniques() []Technique {
 		{"Protocol Bypass", TestProtocolBypass, "Protocol"},
 		{"Path Traversal", TestPathTraversal, "Path Traversal"},
 		{"Caching Proxy Bypass", TestCachingProxyBypass, "Proxy"},
-		{"Specialized Payloads", TestAdvancedPayloads, "Specialized"},
+		{"Specialized Payloads", TestPayloads, "Specialized"},
 		{"Wordlist Path Bypass", TestWordlistPathBypass, "Wordlist"},
 		{"Combined Technique Bypass", TestCombinedBypass, "Combined"},
 	}

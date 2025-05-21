@@ -26,7 +26,7 @@ const defaultBanner = `███████████████████
                                                           
  ╔═══════════════════════════════════════════════════════╗
  ║         FORBIDDEN GATES SHALL FALL BEFORE ME          ║
- ║           github.com/ibrahimsql/bypass403            ║
+ ║           github.com/ibrahimsql/bypass403             ║
  ╚═══════════════════════════════════════════════════════╝`
 
 // PrintBanner loads and prints the banner from file or uses the default banner
