@@ -1,4 +1,39 @@
-# Bypass403: Ultimate 403 Forbidden Bypass Tool | Web Security Testing & Penetration Testing
+# GoBypass403: Advanced 403 Forbidden Bypass Tool
+
+<h4 align="center">Web Security Testing & Penetration Testing Framework</h4>
+
+<p align="center">
+  <a href="#about">📖 About</a> •
+  <a href="#features">✨ Features</a> •
+  <a href="#installation">🏗️ Installation</a> •
+  <a href="#usage">⛏️ Usage</a> •
+  <a href="#techniques">🔍 Techniques</a> •
+  <a href="#examples">🚀 Examples</a> •
+  <a href="#wiki">📚 Wiki</a> •
+  <a href="#contributing">🤝 Contributing</a> •
+  <a href="#resources">🔗 Resources</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ibrahimsql/GoBypass403/releases">
+    <img src="https://img.shields.io/github/v/release/ibrahimsql/GoBypass403?style=flat-square&color=blue" alt="Latest Release">
+  </a>
+  <a href="https://golang.org/doc/go1.21">
+    <img src="https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat-square&logo=go" alt="Go Version">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/ibrahimsql/GoBypass403?style=flat-square&color=green" alt="License">
+  </a>
+  <a href="https://github.com/ibrahimsql/GoBypass403/stargazers">
+    <img src="https://img.shields.io/github/stars/ibrahimsql/GoBypass403?style=flat-square&color=yellow" alt="Stars">
+  </a>
+  <a href="https://github.com/ibrahimsql/GoBypass403/network/members">
+    <img src="https://img.shields.io/github/forks/ibrahimsql/GoBypass403?style=flat-square&color=orange" alt="Forks">
+  </a>
+  <a href="https://github.com/ibrahimsql/GoBypass403/issues">
+    <img src="https://img.shields.io/github/issues/ibrahimsql/GoBypass403?style=flat-square&color=red" alt="Issues">
+  </a>
+</p>
 
 > Advanced tool for bypassing 403 Forbidden responses through multiple techniques including header manipulation, path traversal, IP spoofing, URL encoding and more. Perfect for security professionals, penetration testers, and ethical hackers.
 
@@ -7,11 +42,11 @@
 </p>
 
 
-## Overview: Advanced 403 Forbidden Bypass Framework
+## 📖 About
 
-`bypass403` is a comprehensive security testing tool that attempts to bypass 403 Forbidden HTTP responses by employing a wide range of techniques. It automates many common bypass methods used in web application penetration testing and security assessments, helping security professionals identify vulnerabilities in access control mechanisms.
+`GoBypass403` is a comprehensive security testing tool that attempts to bypass 403 Forbidden HTTP responses by employing a wide range of techniques. It automates many common bypass methods used in web application penetration testing and security assessments, helping security professionals identify vulnerabilities in access control mechanisms.
 
-## Features for Security Professionals
+## ✨ Features for Security Professionals
 
 - **Multiple Bypass Techniques**:
   - Method manipulation (GET, POST, HEAD, OPTIONS, etc.)
@@ -44,7 +79,7 @@
   - Save results to file
   - Automatic saving of successful bypasses
 
-## Security Tool Installation
+## 🏗️ Security Tool Installation
 
 ### Using Go Install (Recommended)
 
@@ -70,7 +105,7 @@ go mod tidy  # To ensure all dependencies are correctly installed
 go build
 ```
 
-## Web Security Testing Usage
+## ⛏️ Web Security Testing Usage
 
 ```
 bypass403 -u https://example.com/admin -v -o results.txt
@@ -99,40 +134,7 @@ bypass403 -u https://example.com/admin -v -o results.txt
         Print version information and exit
 ```
 
-## Security Testing Examples
-
-### Basic Usage
-
-```bash
-bypass403 -u https://example.com/admin
-```
-
-### Advanced Security Techniques
-
-Try all techniques with a custom wordlist:
-```bash
-bypass403 -u https://example.com/admin -w custom_wordlist.txt -all
-```
-
-Focus on specific category of techniques:
-```bash
-bypass403 -u https://example.com/admin -c Headers
-```
-
-Increase verbosity and concurrent threads:
-```bash
-bypass403 -u https://example.com/admin -v -t 20
-```
-
-## How This Security Tool Works
-
-1. The tool first verifies if the target URL actually returns a 403 Forbidden response
-2. It then applies various bypass techniques against the target URL
-3. For each technique, multiple variations are attempted
-4. Successful bypasses (non-403 responses) are reported and saved
-5. Results can be saved to a file for further analysis
-
-## 403 Forbidden Bypass Techniques Explained
+## 🔍 403 Forbidden Bypass Techniques Explained
 
 ### Method Manipulation for Access Control Testing
 Attempts to access the resource using different HTTP methods.
@@ -167,18 +169,37 @@ Tests various paths from a wordlist.
 ### Combined Techniques for Comprehensive Security Assessment
 Applies combinations of headers, methods, and path modifications.
 
-## Contributing to Web Security Tools
+## 🚀 Security Testing Examples
+
+### Basic Usage
+
+```bash
+bypass403 -u https://example.com/admin
+```
+
+### Advanced Security Techniques
+
+Try all techniques with a custom wordlist:
+```bash
+bypass403 -u https://example.com/admin -w custom_wordlist.txt -all
+```
+
+Focus on specific category of techniques:
+```bash
+bypass403 -u https://example.com/admin -c Headers
+```
+
+Increase verbosity and concurrent threads:
+```bash
+bypass403 -u https://example.com/admin -v -t 20
+```
+
+## 🤝 Contributing to Web Security Tools
 
 Contributions are welcome! Feel free to submit pull requests with new bypass techniques or improvements.
 
-## License
+## 📚 Related Security Testing Resources
 
-MIT License
-
-## Security Tool Tags
-`security` `penetration-testing` `403-bypass` `web-security` `forbidden-bypass` `hacking-tools` `security-assessment` `cybersecurity` `ethical-hacking` `access-control-testing`
-
-## Related Security Testing Resources
 - [OWASP Broken Access Control](https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control)
 - [Portswigger Web Security Academy](https://portswigger.net/web-security)
 - [HackTricks Access Control Bypassing](https://book.hacktricks.xyz/pentesting-web/403-bypass-forbidden)
@@ -216,4 +237,14 @@ This web security testing tool was inspired by many bypass techniques collected 
 
 ## Disclaimer
 
-This tool is meant for educational purposes and ethical security testing with proper authorization. Do not use against systems you do not have permission to test. 
+This tool is meant for educational purposes and ethical security testing with proper authorization. Do not use against systems you do not have permission to test.
+
+## 📚 Wiki
+
+Comprehensive documentation is available in the [project wiki](https://github.com/ibrahimsql/GoBypass403/wiki):
+
+* [Home](https://github.com/ibrahimsql/GoBypass403/wiki/Home) - Project overview and getting started
+* [System Requirements](https://github.com/ibrahimsql/GoBypass403/wiki/System-Requirements) - Hardware and software requirements
+* [Installation Guide](https://github.com/ibrahimsql/GoBypass403/wiki/Installation) - Detailed installation instructions
+* [CLI Reference](https://github.com/ibrahimsql/GoBypass403/wiki/CLI-Reference) - Complete command-line options
+* [Bypass Techniques](https://github.com/ibrahimsql/GoBypass403/wiki/Bypass-Techniques) - Detailed bypass methodology 
